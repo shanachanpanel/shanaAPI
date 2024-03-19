@@ -1,5 +1,5 @@
 const cheerio = require("cheerio");
-const url = require("../Riza/base-url");
+const url = require("../API/Riza/base-url");
 const { default: Axios } = require("axios");
 const baseUrl = url.baseUrl;
 const completeAnime = url.completeAnime;
