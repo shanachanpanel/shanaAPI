@@ -1,9 +1,9 @@
-const url = require("../helpers/base-url");
+const url = require("../API/Riza/base-url");
 const { default: Axios } = require("axios");
 const cheerio = require("cheerio");
-const errors = require("../helpers/errors");
+const errors = require("../API/Riza/errors");
 const episodeHelper = require("../helpers/episodeHelper");
-const {baseUrl} = require("../helpers/base-url");
+const {baseUrl} = require("../API/Riza/base-url");
 const e = require("express");
 
 exports.detailAnime = async (req, res) => {
