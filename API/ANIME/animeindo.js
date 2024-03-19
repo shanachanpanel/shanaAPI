@@ -2,7 +2,7 @@ const url = require("../API/Riza/base-url");
 const { default: Axios } = require("axios");
 const cheerio = require("cheerio");
 const errors = require("../API/Riza/errors");
-const episodeHelper = require("../helpers/episodeHelper");
+const episodeHelper = require("../API/Riza/episodeHelper");
 const {baseUrl} = require("../API/Riza/base-url");
 const e = require("express");
 
