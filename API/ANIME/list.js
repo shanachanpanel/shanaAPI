@@ -4,8 +4,8 @@ const { default: Axios } = require("axios");
 const baseUrl = url.baseUrl;
 const completeAnime = url.completeAnime;
 const onGoingAnime = url.onGoingAnime;
-const errors = require("../helpers/errors");
-const ImageList = require("../helpers/image_genre").ImageList;
+const errors = require("../API/Riza/errors");
+const ImageList = require("../API/Riza/image_genre").ImageList;
 const e = require("express");
 
 exports.home = (req, res) => {
